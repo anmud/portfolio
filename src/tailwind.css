@@ -1,0 +1,126 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/base.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/base";
+ */
+
+
+
+
+ @tailwind base;
+
+
+
+ html,body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+body {
+   font-family: "Roboto", serif;
+   color: #222;
+   background:white;
+   line-height: 1.15;
+   font-size: 1rem;
+   
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Roboto", serif;
+   margin-bottom: 1.25rem;
+   letter-spacing: 4px;
+ }
+ p {
+   margin-bottom: 1.25rem;
+ }
+ a {
+   text-decoration: none;
+ }
+
+ .btn-white,
+ .btn-primary {
+   text-transform: uppercase;
+   letter-spacing: var(--mainSpacing);
+   color: var(--mainWhite);
+   border: 2px solid var(--mainWhite);
+   padding: 0.9rem 1.6rem;
+   display: inline-block;
+   transition: var(--mainTransition);
+   cursor: pointer;
+ }
+ .btn-white:hover {
+   background: var(--mainWhite);
+   color: var(--primaryColor);
+ }
+ .btn-primary {
+   background: var(--primaryColor);
+   color: var(--mainWhite);
+   border: 2px solid var(--primaryColor);
+ }
+ .btn-primary:hover {
+   background: transparent;
+   color: var(--primaryColor);
+ }
+ main {
+   min-height: 100vh;
+   min-width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+ }
+ .logo {
+   font-size: 1.5rem;
+ }
+
+ img {
+  min-height:  "calc(100vh - 62px)";
+  background:  "linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7))" ;
+  background-position: center;
+  background-size: cover;
+  opacity: 1 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ } 
+/**
+* This injects any component classes registered by plugins.
+*
+* If using `postcss-import`, use this import instead:
+*
+* @import "tailwindcss/components";
+*/
+@tailwind components;
+
+
+
+/**
+* Here you would add any of your custom component classes; stuff that you'd
+* want loaded *before* the utilities so that the utilities could still
+* override them.
+*
+* Example:
+*
+* .btn { ... }
+* .form-input { ... }
+*
+* Or if using a preprocessor or `postcss-import`:
+*
+* @import "components/buttons";
+* @import "components/forms";
+*/
+
+@tailwind utilities;
