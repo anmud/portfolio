@@ -17,13 +17,13 @@ const Navbar = () => {
   return (
 
 
-  <div className="w-full px-6 sm:px-8 -mt-3  mx-auto bg-white flex flex-wrap flex-grow items-start sm:items-center fixed z-50">  
+  <div className="w-full px-6 sm:px-16 -mt-2  mx-auto bg-white flex flex-wrap flex-grow items-start sm:items-center fixed z-50 ">  
 
-     <nav className="container pt-10 mx-auto sm:flex sm:flex-wrap flex-grow sm:items-center sm:justify-between bg-white sm:px-24 sm:pt-0">
+     <nav className="container pt-10 mx-auto sm:flex sm:flex-wrap flex-grow sm:items-center sm:justify-between bg-white sm:px-2 sm:pt-0 ">
   
    <div className="flex justify-between items-center bg-white flex-shrink-0 text-black sm:mr-4">
          <Link to='/#' className=" sm:inline-block pt-3">
-         <img src={logo} alt="pipes logo" className="hidden flex w-16 h-16 mr-2 sm:inline-block"/>
+         <img src={logo} alt="pipes logo" className="hidden flex w-16 h-16 mr-2 sm:inline-block "/>
          </Link>
       
       

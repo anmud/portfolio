@@ -1,17 +1,20 @@
 import React from "react"
-import { FaTwitter, FaGithub, FaMedium } from "react-icons/fa"
+import { FaTwitter, FaGithub, FaMedium, FaLinkedin } from "react-icons/fa"
 export default [
-    {
-        icon: <FaMedium />,
-        url: "https://medium.com/@anastasiamo",
-      },
+  {
+    icon: <FaGithub />,
+    url: "https://github.com/anmud",
+  },
   {
     icon: <FaTwitter />,
     url: "https://twitter.com/?lang=en",
   },
   {
-    icon: <FaGithub />,
-    url: "https://github.com/anmud",
+    icon: <FaLinkedin />,
+    url: "https://www.linkedin.com/in/anastasiamudrova/",
   },
-  
+  {
+    icon: <FaMedium />,
+    url: "https://medium.com/@anastasiamo",
+  },
 ]

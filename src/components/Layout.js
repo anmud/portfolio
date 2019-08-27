@@ -14,11 +14,11 @@ if (typeof window !== "undefined") {
 
 const Layout = ({children}) => {
     return (
-        <main >
+       < main>
            <Navbar/>
             {children}
             <Footer/>
-        </main>
+       </main>
         
     )
 }
