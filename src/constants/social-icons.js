@@ -10,10 +10,6 @@ export default [
     url: "https://twitter.com/Anastas81156675",
   },
   {
-    icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/anastasiamudrova/",
-  },
-  {
     icon: <FaMedium />,
     url: "https://medium.com/@anastasiamo",
   },

@@ -13,7 +13,7 @@ const Footer = () => {
          
           <div className="text-lg text-white font-bold antialiased">
       
-          <p>Copiright &copy; {new Date().getFullYear()} by Ana Mo.</p>
+          <p>Copyright &copy; {new Date().getFullYear()} by Ana Mo.</p>
       
            </div>
 

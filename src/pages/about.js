@@ -52,7 +52,7 @@ const About = ({children}) => {
                  Now I have successfully transferred my passion for foreign languages to programming languages.
             </p>
            <p className="mb-4">
-           I work with technologies such as <strong>HTML, CSS, Tailwind, JavaScript, Ract, QraphQl, Gatsby, Github</strong>.
+           I work with technologies such as <strong>HTML, Css, TailwindCss, JavaScript, React, GraphQL, Gatsby, Github</strong>.
            I'm also familliar with <strong>Vue</strong>.
            </p>
            <p className="mb-4">

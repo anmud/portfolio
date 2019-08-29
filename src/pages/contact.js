@@ -19,7 +19,7 @@ const Contact = ({children}) => {
 
 
             <div className="flex">
-         <div className="flex mx-20 sm:-mx-48">
+         <div className="flex mx-24 sm:-mx-24">
          {socialIcons.map((item, index) => (
            <a key={index} href={item.url} target="_blank" rel="noopener noreferrer" className="pr-8  sm:pr-32 text-2xl sm:text-4xl text-blue-600 ">{item.icon}</a>
          ))}
