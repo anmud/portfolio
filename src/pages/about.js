@@ -22,24 +22,24 @@ const About = ({children}) => {
 
     return (
        
-        <div id="about" className="container mx-auto min-w-full pt-12 sm:pt-32 pb-8 sm:pb-24 flex-grow">
+        <div id="about" className="container mx-auto min-w-full pt-20 sm:pt-32 pb-8 sm:pb-24 flex-grow">
         <div className="bg-white ">
-           <div className="flex flex-col  sm:px-12 mt-10">
+           <div className="flex flex-col  sm:px-12 mt-8 sm:mt-10">
              
-             <div className="pb-10">
+             <div className="pb-2 sm:pb-10">
              <h1 className="text-3xl sm:text-5xl font-thin tracking-tight uppercase antialiased text-center">about me</h1>
              </div>
 
                 <div className="flex flex-wrap ">
 
                 <div className="w-full sm:w-1/2 sm:-mx-8">
-                  <div className="py-2 px-48 ">
+                  <div className="py-2 px-48 sm:px-56 ">
                   <Img fluid={image.avatar.childImageSharp.fluid} className="w-full shadow-2xl rounded"/>
                    </div>
                   </div> 
 
                   <div className="w-full mx-12 sm:-mx-32 sm:w-1/2 ">
-           <div className="min-w-full text-left sm:text-left sm:px-12 pt-4 sm:pt-0">
+           <div className="min-w-full text-left sm:text-left sm:px-2 pt-4 sm:pt-0">
            <div className="text-gray-800 pb-4 ">
            <p className="text-left text-xl sm:text-2xl tracking-wider my-1 antialiased">I'm Anastasia.</p> 
            <p className="text-left text-xl sm:text-2xl tracking-wider antialiased">

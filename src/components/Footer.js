@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import socialIcons from '../constants/social-icons'
+
 
 
 const Footer = () => {

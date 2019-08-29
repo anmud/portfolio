@@ -7,7 +7,7 @@ export default [
   },
   {
     icon: <FaTwitter />,
-    url: "https://twitter.com/?lang=en",
+    url: "https://twitter.com/Anastas81156675",
   },
   {
     icon: <FaLinkedin />,
